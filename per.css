@@ -1,0 +1,31 @@
+#float {
+	margin: 15px auto;
+	padding: 0;
+}
+
+#float li {
+	float: left;
+	list-style: none;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+#float li {
+	background: linier-gradient(#687587, #404853);
+	float: left;
+	list-style: none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+#float li a {
+	border-left: 1px solid rgba(0, 0, 0, 0, 2);
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	color: black;
+	font-variant: small-caps;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+#float li a:hover {
+	background: grey;
+	color: blue;
+}
